@@ -1,6 +1,10 @@
 /**
  * Tipos de variables
  */
+//VAR ---> es una variable de asignacion de dato
+//const ---> Es una variable que no va a mutar de valor nativo 
+//let ---> No te deja utilizar la variable antes de inicializarla como el VAR
+
 //Tipos de dato number
 var entero = 12 // -2,147,483,648 al 2,147,483,648
 var long = 98789098765 // 64-bit del -9,223,372,036,854,775,808 al 9,223,372,036,854,775,808
