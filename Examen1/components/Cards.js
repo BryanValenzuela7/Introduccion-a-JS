@@ -4,12 +4,13 @@ function Cards({id, personal_info:{address, phone_number,zipcode}, employee_name
     card.innerHTML = `
     <img src='${profile_image}' alt='${description}' class='card-avatar'/>
     <div class='card-people'>
-        <p class='card-people_name'> ${employee_name}</p>
-        <p class='card-people_age'> ${employee_age}</p>
-        <p class='card-people_salary'> ${employee_salary}</p>
-        <p class='card-people_address'> ${address}</p>
-        <p class='card-people_zipcode'> ${zipcode}</p>
-        <p class='card-people_phone'> ${phone_number}</p>
+        <p class='card-people_name'> Name: ${employee_name}</p>
+        <p class='card-people_id'> <strong>ID:</strong> ${id}</p>
+        <p class='card-people_age'> <strong>Age:</strong> ${employee_age}</p>
+        <p class='card-people_salary'> <strong>Salary:</strong> ${employee_salary}</p>
+        <p class='card-people_address'> <strong>Address:</strong> ${address}</p>
+        <p class='card-people_zipcode'> <strong>Zipcode:</strong> ${zipcode}</p>
+        <p class='card-people_phone'> <strong>Phone:</strong> ${phone_number}</p>
     </div>
     `
     return card

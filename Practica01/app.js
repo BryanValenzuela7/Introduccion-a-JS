@@ -22,10 +22,14 @@
 //Random generador
 // const parrafo = document.createElement('p')
 // const boton= document.createElement('button')
-// function numeroRandom (){
-     
+// const numeroRandom = ()=>{
 //     parrafo.innerText = Math.floor(Math.random() * 20);
 //     document.body.appendChild(parrafo)
+// }
+//Esta es la otra forma de hacerlo
+// function numeroRandom (){
+//     parrafo.innerText = Math.floor(Math.random() * 20);
+//     document.body.appendChild(parrafo) 
 // }
 
 // boton.innerText = "Random"
@@ -33,22 +37,22 @@
 // document.body.appendChild(boton)
 
 //TAREA TIPO DE CAMBIO PESOS A DOLARES USANDO EL INPUT Y QUE MUESTRE EL DINERO
-const monedaNacional = document.getElementById('monedaNacional')
-const total = document.createElement('p')
-const boton= document.createElement('button')
-boton.innerText = 'Calcular'
-document.body.appendChild(monedaNacional)
-document.body.appendChild(boton)
-document.body.appendChild(total)
+// const monedaNacional = document.getElementById('monedaNacional')
+// const total = document.createElement('p')
+// const boton= document.createElement('button')
+// boton.innerText = 'Calcular'
+// document.body.appendChild(monedaNacional)
+// document.body.appendChild(boton)
+// document.body.appendChild(total)
 
-boton.addEventListener('click', (e) =>{
-    e.preventDefault()
-    if (monedaNacional.value !== '') {
-        total.innerText = 'Total en dolares: ' + (monedaNacional.value * 0.060).toFixed(2);
-    } else {
-        total.innerText = 'Ingrese un valor valido';
-    }
-});
+// boton.addEventListener('click', (e) =>{
+//     e.preventDefault()
+//     if (monedaNacional.value !== '') {
+//         total.innerText = 'Total en dolares: ' + (monedaNacional.value * 0.060).toFixed(2);
+//     } else {
+//         total.innerText = 'Ingrese un valor valido';
+//     }
+// });
 
 
 
